@@ -1,15 +1,13 @@
 .header-bg{
-    background-color: var(--preto);
+    background-color: var(--cor-12);
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -18,7 +16,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    color: var(--branco);
 }
 
 .header-menu a{
@@ -32,7 +29,7 @@
     display: block;
     height: 2px;
     width: 0px;
-    background: var(--branco);
+    background: var(--cor-0);
     margin-top: 2px;
     transition: 0.3s;
     position: absolute;
@@ -47,12 +44,12 @@
         gap: 20px;
     }
     .header-menu a{
-        background: var(--cinza-5);
+        background: var(--cor-11);
         padding: 12px 16px;
         border-radius: 4px;
     }
     .header-menu a:hover{
-        background: var(--cinza-4);
+        background: var(--cor-10);
     }
 
     .header-menu a::after{

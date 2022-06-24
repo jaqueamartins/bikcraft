@@ -1,10 +1,9 @@
 body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--branco);
 }
 
-h1,ul,p{
+h1,h2,h3,ul,p{
     margin: 0;
 }
 
